@@ -1,0 +1,38 @@
+.menuNav{
+  display: flex;
+  align-items: center;
+  max-width: 100vw;
+  padding: 20px 60px;
+  justify-content: space-between;
+}
+
+.link{
+text-decoration: none;
+font-family:'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: 15px;
+color:black;
+}
+.btnLink:hover,
+.btnLink:focus{
+  background-color: #ffa505;
+  color: #ffffff;
+}
+.btnLink:active{
+  background-color: #ffa505;
+  color: #ffffff;
+}
+.btnLink{
+  padding: 10px 20px;
+  background-color: #8080800f;
+  border-radius: 20px;
+}
+
+.containerPages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  
+}

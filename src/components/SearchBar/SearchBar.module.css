@@ -1,0 +1,38 @@
+.formWrapper{
+  display: flex;
+  justify-content: center;
+}
+.inputWrapper {
+  position: relative;
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+.inputForm {
+  width: 100%;
+  padding: 10px 40px 10px 10px; 
+  outline: none;
+  border: 2px solid #00000036;
+  border-radius: 5px; 
+}
+.inputForm:focus{
+  border: 2px solid #ffa505;
+}
+placeholder{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+.formBtn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.iconForm {
+  width: 17px;
+  height: 17px;
+}

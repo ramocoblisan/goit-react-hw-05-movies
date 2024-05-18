@@ -1,0 +1,100 @@
+.containerBtn {
+  display: flex;
+  align-items: center;
+}
+.btnBack{
+  padding: 10px;
+  background-color: #8080802b;
+  text-decoration: none;
+  color: #000000;
+  font-weight:600 ;
+  border-radius: 6px;
+  cursor:pointer;
+}
+.btnBack:hover,
+.btnBack:focus{
+  background-color: #ffa505;
+  color: #fff;
+}
+.linkContent {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-right: 5px;
+}
+.wrapper{
+  padding: 40px;
+  margin-bottom: 20px;
+}
+.containerMovies{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 60px;
+  
+}
+.contaonerPosition{
+  position: relative;
+}
+.posterVote {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #FF5722;
+  color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.containerDetails{
+  display: flex;
+  flex-direction: column;
+}
+.description{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+  font-size: 17px;
+  text-align: justify;
+}
+.overview, 
+.genres{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.boxInfo{
+  margin-top: 60px;
+  border: 1px solid #00000014;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.linksComponents{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.link{
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #80808033;
+  color: black;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.link:hover,
+.link:focus,
+.link:active{
+  background-color: #ffa505;
+  color: #fff;
+}
+
+.itemPoster {
+  width: 300px;
+}

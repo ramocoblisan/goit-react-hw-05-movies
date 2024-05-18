@@ -1,0 +1,18 @@
+.containerHome{
+  padding: 40px;
+  margin-bottom: 20px;
+}
+.containerBox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.titleBox{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

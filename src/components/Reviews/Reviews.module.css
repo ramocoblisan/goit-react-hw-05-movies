@@ -1,0 +1,29 @@
+.containerReviews{
+  list-style: none;
+  padding: 0;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemsReviews {
+  max-width: 90%;
+}
+
+.detailsReview{
+  display: flex;
+  gap:10px;
+}
+.userName{
+  font-weight: bold;
+}
+.content{
+  text-align: justify;
+  margin: 0;
+  padding: 15px;
+}
+.defaultReviews{
+  text-align: center;
+}
